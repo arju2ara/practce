@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drive"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnAddFuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Fuel"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextFuelAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter fuel amount"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewMileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mileage: 0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewFuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fuel: 0"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
